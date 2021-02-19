@@ -1,0 +1,15 @@
+
+    
+# list of alphabets
+alphabets = ['a', 'b', 'd', 'e', 'i', 'j', 'o']
+# function that filters vowels
+deffilterVowels(alphabet):
+  vowels = ['a', 'e', 'i', 'o', 'u']
+if (alphabet in vowels):
+returnTrue
+else:
+returnFalse
+filteredVowels = filter(filterVowels, alphabets)
+print('The filtered vowels are:')
+for vowel in filteredVowels:
+print(vowel)
